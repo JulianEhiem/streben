@@ -1,10 +1,14 @@
-
+import dashstyles from '../dashboard.module.css'
 
 const AthleteProfileCard = () => {
     return(
-        <div>
-            This is the Athlete Profile Card
-        </div>
+        <>
+            <div className={dashstyles.test}>
+                This is the Athlete Profile Card
+                and more
+            </div>
+            
+        </>
     )
 }
 
