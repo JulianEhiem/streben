@@ -1,5 +1,6 @@
 :root{
     --main-color:#FC4C1E;
+    --ff: "Helvetica", sans-serif;
 }
 a{
     text-decoration: none;
@@ -19,17 +20,23 @@ span {
     height: fit-content;
     background-color: #fff;
     justify-content: center;
+    font-family: var(--ff);
 }
 .navbarMenu{
     display: flex;
     flex-direction: row;
     align-content: center;
     justify-content: center;
+    margin: 0;
+    padding: 0;
+    height: 55px;
 }
 .navContainer{
     display: flex;
     flex-direction: row;
-    /* align-self: center; */
+    width: fit-content;
+    max-width: 1248px;
+    height: 55px;
 }
 .navLeft{
     display: flex;
@@ -47,8 +54,8 @@ span {
     margin: 0;
 }
 .navLogo{
-    font: 'Helvetica', sans-serif;
-    font-size: 30px;
+    /* font-family: var(--ff); */
+    font-size: 22px;
     font-weight: bold;
     color: var(--main-color);
     letter-spacing: -1.55px;
@@ -60,4 +67,10 @@ span {
     height: 34px;
     color: #fff;
     border: none;
+}
+.dropdownSet{
+    font-size: 14px;
+}
+.arrowSize{
+    width: 9px;
 }
