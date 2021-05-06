@@ -1,6 +1,13 @@
+:root{
+    --main-color:#FC4C1E;
+}
 a{
     text-decoration: none;
     color: #000;
+    height: fit-content;
+}
+span {
+    height: fit-content;
 }
 
 .navbar{
@@ -16,6 +23,8 @@ a{
 .navbarMenu{
     display: flex;
     flex-direction: row;
+    align-content: center;
+    justify-content: center;
 }
 .navContainer{
     display: flex;
@@ -31,12 +40,24 @@ a{
     flex-direction: row;
 }
 .navbarMenu > li {
+    display: flex;
+    align-items: center;
     list-style: none;
+    padding: 0;
+    margin: 0;
 }
 .navLogo{
     font: 'Helvetica', sans-serif;
     font-size: 30px;
     font-weight: bold;
-    color: #FC4C02;
+    color: var(--main-color);
     letter-spacing: -1.55px;
+}
+.navBtn{
+    border-radius: 7px;
+    background-color: var(--main-color);
+    width: 155px;
+    height: 34px;
+    color: #fff;
+    border: none;
 }
