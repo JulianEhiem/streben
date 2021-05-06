@@ -1,11 +1,35 @@
+a{
+    text-decoration: none;
+    color: #000;
+}
+
 .navbar{
     display: flex;
-    position: fixed;
+    position: sticky;
     top: 0;
     left: 0;
     width: 100%;
+    height: fit-content;
+    background-color: #fff;
+    justify-content: center;
 }
 .navbarMenu{
     display: flex;
     flex-direction: row;
+}
+.navContainer{
+    display: flex;
+    flex-direction: row;
+    /* align-self: center; */
+}
+.navLeft{
+    display: flex;
+    flex-direction: row;
+}
+.navRight{
+    display: flex;
+    flex-direction: row;
+}
+.navbarMenu > li {
+    list-style: none;
 }
