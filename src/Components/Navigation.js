@@ -6,6 +6,8 @@ const Navigation = () => {
             <div className={navstyles.navContainer}>
                 <div className={navstyles.navLeft}>
                     <ul className={navstyles.navbarMenu}>
+                        <li><a href = "#" className={navstyles.navLogo}>STREBEN</a></li>
+                        {/* <li><a href = "#" className={navstyles.navbarMenu}><span >STREBEN</span></a></li> */}
                         <li><a href = "#" >Search</a></li>
                         <li><a href = "#" >Menu</a></li>
                         <li><a href = "#" >Dashboard</a></li>

@@ -33,3 +33,10 @@ a{
 .navbarMenu > li {
     list-style: none;
 }
+.navLogo{
+    font: 'Helvetica', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    color: #FC4C02;
+    letter-spacing: -1.55px;
+}
