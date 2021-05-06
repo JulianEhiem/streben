@@ -8,6 +8,7 @@ a{
     height: fit-content;
 }
 span {
+    display: flex;
     height: fit-content;
 }
 
@@ -25,8 +26,6 @@ span {
 .navbarMenu{
     display: flex;
     flex-direction: row;
-    align-content: center;
-    justify-content: center;
     margin: 0;
     padding: 0;
     height: 55px;
@@ -34,7 +33,9 @@ span {
 .navContainer{
     display: flex;
     flex-direction: row;
-    width: fit-content;
+    justify-content: space-between;
+    width: 1000px;
+    min-width: 800px;
     max-width: 1248px;
     height: 55px;
 }
@@ -54,23 +55,40 @@ span {
     margin: 0;
 }
 .navLogo{
-    /* font-family: var(--ff); */
     font-size: 22px;
     font-weight: bold;
     color: var(--main-color);
     letter-spacing: -1.55px;
+    padding: 0 1.2rem 0 0.5rem;
 }
 .navBtn{
-    border-radius: 7px;
+    border-radius: 4.5px;
     background-color: var(--main-color);
-    width: 155px;
-    height: 34px;
+    font-family: var(--ff);
+    font-size: 12px;
+    font-weight: bold;
+    padding: 6px 16px;
+    width: 145px;
+    height: 29px;
     color: #fff;
     border: none;
+    margin-right: 0.75rem;
 }
 .dropdownSet{
     font-size: 14px;
 }
 .arrowSize{
     width: 9px;
+    padding-left: 0.3rem;
+}
+.drop{
+    padding: 0 1.2rem 0 0.5rem;
+    font-size: 14px;
+    color: #494950;
+}
+.hamburger{
+    padding: 0 0.5rem 0 1.2rem;
+}
+.hamArrow{
+    padding-right: 0.6rem;
 }
