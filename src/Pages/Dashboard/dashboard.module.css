@@ -1,11 +1,13 @@
-.test{
-    background-color: red;
-    color: white;
+.mainDashContainer{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    background-color: turquoise;
 }
-.test2{
-    background-color: green;
-    color: white;
-}
-.card{
-    background-color: purple;
+.mainDash{
+    display: flex;
+    background-color: tomato;
+    width: 1000px;
+    min-width: 800px;
+    max-width: 1248px;
 }
