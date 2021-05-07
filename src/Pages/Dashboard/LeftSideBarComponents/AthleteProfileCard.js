@@ -9,10 +9,10 @@ const AthleteProfileCard = () => {
             <div className={leftstyles.profileCard}>
                 <div className={leftstyles.profileImage}>
                     <div className={leftstyles.athleteImage}>
-                        <img src={profileImage} alt="profile image"/>
+                        <img src={profileImage} alt="profile image" width = {75}/>
                     </div>
                     <div className={leftstyles.premiumBadge}>
-                        <img src={badge} alt="profile badge"/>
+                        <img src={badge} alt="profile badge" width={21}/>
                     </div>
                 </div>
                 <div className={leftstyles.profileStats}>
@@ -20,11 +20,11 @@ const AthleteProfileCard = () => {
                         <h2>Chad Wimper</h2>
                     </div>
                     <div className={leftstyles.socialStats}>
-                        <div className={leftstyles.following}>
+                        <div className={`${leftstyles.following} ${leftstyles.stat}`}>
                             <p>Following</p>
                             <h3>178</h3>
                         </div>
-                        <div className={leftstyles.followers}>
+                        <div className={`${leftstyles.followers} ${leftstyles.stat}`}>
                             <p>Followers</p>
                             <h3>574</h3>
                         </div>
@@ -40,7 +40,7 @@ const AthleteProfileCard = () => {
                 </div>
                 <div className={leftstyles.profileLog}>
                     <p>Your Training Log</p>
-                    <p><img src={leadingArrow} alt="leading Arrow"/></p>
+                    <p><img src={leadingArrow} alt="leading Arrow" width={12}/></p>
                 </div>
             </div>
             

@@ -1,8 +1,12 @@
+:root{
+    --main: #F7F7FA;
+}
+
 .mainDashContainer{
     display: flex;
     justify-content: center;
     height: 100vh;
-    background-color: turquoise;
+    background-color: var(--main);
 }
 .mainDash{
     display: flex;

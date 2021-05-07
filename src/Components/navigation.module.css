@@ -22,6 +22,8 @@ span {
     background-color: #fff;
     justify-content: center;
     font-family: var(--ff);
+    box-shadow: 0px 0px 20px 1px #cfcfcf86;
+    z-index: 100;
 }
 .navbarMenu{
     display: flex;
@@ -56,7 +58,7 @@ span {
 }
 .navLogo{
     font-size: 22px;
-    font-weight: bold;
+    font-weight: bolder;
     color: var(--main-color);
     letter-spacing: -1.55px;
     padding: 0 1.2rem 0 0.5rem;

@@ -1,9 +1,128 @@
+:root{
+    --image-width: 75;
+    --ff: "Helvetica", sans-serif;
+    /* --light-accent: #CBCBCB; */
+    --light-accent: #ebebeb;
+    /* --shadow-set: 0px 0px 10px 1px #eeeef0; */
+    --shadow-set: 0px 0px 20px 1px #cfcfcf86;
+}
+*{
+    font-family: var(--ff);
+}
+
 .container{
-    background-color: blue;
+    background-color: #f7f7fa;
+    padding: 1.5rem 0.5rem;
 }
 .profileCard{
-    background-color: pink;
+    background-color: #fff;
+    position: relative;
+    padding: 2.5rem 0.5rem 0.75rem;
+    border-radius: 3px;
+    box-shadow: var(--shadow-set) ;
 }
-.container{
-    background-color: black;
+.profileImage{
+    position: absolute;
+    left: calc(50% - var(--image-width)*0.5px);
+    top: calc(var(--image-width)* -0.5px);
+}
+.athleteImage{
+    position: relative;
+    display: inline-block;
+}
+.athleteImage > img{
+    border-radius: 50%;
+    box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 0.322);
+}
+.premiumBadge{
+    position: absolute;
+    display: inline-block;
+    right: 0px;
+}
+.athleteName > h2{
+    font-size: 22px;
+    margin-bottom: 0.5rem;
+}
+.socialStats{
+    width: 100%;
+    padding: 0.2rem;
+    box-sizing: border-box;
+    display: flex;
+}
+.socialStats > * {
+    width: calc((90/3) * 1%);
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0.2rem;
+}
+.socialStats > * > *{
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    margin: 5px 0;
+    
+}
+.socialStats > * > p{
+    font-size: 12px;
+}
+.socialStats > * > h3{
+    font-size: 20px;
+    font-weight: normal;
+}
+.stat::after{
+    content: '';
+    display: flex;
+    background-color: var(--light-accent);
+    margin-left: 0.12rem;
+    box-sizing: border-box;
+    width: 1px;
+    height: 25px;
+}
+.profileStats::after{
+    content: '';
+    display: flex;
+    background-color: var(--light-accent);
+    margin-top: 0.6rem;
+    box-sizing: border-box;
+    width: 100%;
+    height: 1px;
+}
+.profileHistory{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 1rem 0.75rem;
+}
+.profileHistory > *{
+    display: inline-flex;
+    width: fit-content;
+    font-size: 12px;
+    margin: 0 0 0.5rem;
+}
+.dot{
+    font-size: 17px;
+    font-weight: bolder;
+    align-content: center;
+    line-height: 30%;
+    padding: 0 0.25rem;
+}
+.profileHistory::after{
+    content: '';
+    display: flex;
+    background-color: var(--light-accent);
+    margin-top: 0.9rem;
+    box-sizing: border-box;
+    width: 100%;
+    height: 1px;
+}
+
+.profileLog{
+    display: flex;
+    padding: 0.25rem 0.75rem;
+    justify-content: space-between;
+    margin-bottom: 0.3rem;
+}
+.profileLog > *{
+    font-size: 14px;
+    margin: 0;
 }
