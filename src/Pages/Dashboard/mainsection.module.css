@@ -1,5 +1,18 @@
 .mainSection{
     background-color: rgb(49, 152, 236);
     height: 100%;
-    width: 45%;
+    width: 50%;
+    max-width: 951px;
+    min-width: 554px;
+    padding: 1rem;
+}
+
+.activityCardContainer{
+    background-color: #fff;
+    padding: 1.5rem;
+}
+.header{
+    padding: 0;
+    margin: 0;
+    display: flex;
 }
