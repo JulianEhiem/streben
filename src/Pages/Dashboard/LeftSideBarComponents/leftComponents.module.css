@@ -129,4 +129,120 @@
 
 /* ===============================================// Goals Dashboard //=========================================================== */
 
-
+.goalsDashContainer{
+    padding:0.3rem;
+}
+.goalsDashMain{
+    background-color: #fff;
+    /* box-shadow: var(--shadow-set); */
+}
+.activityTabs{
+    display: flex;
+}
+.tab{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    width: calc(100%/4);
+    height: 46px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    background-color: #F7F7FA;
+}
+.activeTab{
+    background-color: #fff;
+}
+.mileageReport{
+    position: relative;
+    padding-top: 0.6rem;
+}
+.thisWeek > p{
+    font-size: 11px;
+    margin: 0;
+    display: inline-flex;
+}
+.edit{
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding:  0.5rem;
+}
+.currentMileage{
+    display: flex;
+    justify-content: center;
+}
+.currentMileage > p{
+    display: flex;
+    font-size: 20px; 
+}
+.actual{
+    color: #79D7BD;
+}
+.divider{
+    color: #F0F0F5;
+    padding: 0 0.4rem;
+}
+.statsAndPie{
+    display: flex;
+    /* background-color: rosybrown; */
+    margin: 0 2rem;
+    justify-content: space-between;
+}
+.dailyStats{
+    display: flex;
+    gap: 0.5rem;
+    align-items: flex-end;
+}
+.weekday{
+    display: flex;
+    flex-direction: column;
+    align-content: flex-end;
+}
+.weekday > p{
+    width: 11px;
+    height: fit-content;
+    font-size: 8px;
+    text-align: center;
+    margin: 0.3rem 0;
+    padding: 0;
+}
+.distanceBar{
+    width: 11px;
+    height: 57px;
+    background-color: rgb(223, 223, 223);
+}
+.mondayBar{
+    height: 32px;
+}
+.tuesdayBar{
+    height: 52px;
+}
+.wednesdayBar{
+    height: 12px;
+}
+.thursdayBar{
+    height: 39px;
+}
+.fridayBar{
+    height: 43px;
+}
+.saturdayBar{
+    height: 56px;
+}
+.sundayBar{
+    height: 16px;
+    background-color: #79D7BD;
+}
+.pieStatus{
+    display: flex;
+    border: 2.5px solid #79D7BD;
+    align-content: center;
+    justify-content: center;
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    box-sizing: border-box;
+}
+.pie{
+    display: inline-flex;
+}
