@@ -85,11 +85,11 @@ const AthleteGoalsDashboard = () => {
                         <p>THIS YEAR</p>
                     </div>
                     <div className={leftstyles.yearlyMileage}>
-                        <p> <span className={leftstyles.athleteMileage}>25.4</span><span className={leftstyles.divider}>/</span>24 mi</p>
+                        <p> <span className={leftstyles.actual}>94</span><span className={leftstyles.divider}>/</span>2400 mi</p>
                     </div>
                     <div className={leftstyles.mileageProgressBar}>
                         <div className={leftstyles.progressBar}>
-                            <div className={leftstyles.bar}></div>
+                            <div className={leftstyles.barFill}></div>
                         </div>
                         <div className={leftstyles.needle}></div>
                         <p>TODAY</p>

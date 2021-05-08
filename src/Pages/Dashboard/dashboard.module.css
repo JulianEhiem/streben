@@ -5,7 +5,7 @@
 .mainDashContainer{
     display: flex;
     justify-content: center;
-    height: 100vh;
+    height: 150vh;
     background-color: var(--main);
 }
 .mainDash{

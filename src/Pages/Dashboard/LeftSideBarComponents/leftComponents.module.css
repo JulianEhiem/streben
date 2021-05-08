@@ -3,6 +3,8 @@
     --ff: "Helvetica", sans-serif;
     /* --light-accent: #CBCBCB; */
     --light-accent: #ebebeb;
+    --accent-green: #79D7BD;
+    --background: #F7F7FA;
     /* --shadow-set: 0px 0px 10px 1px #eeeef0; */
     --shadow-set: 0px 0px 20px 1px #cfcfcf86;
 }
@@ -246,3 +248,96 @@
 .pie{
     display: inline-flex;
 }
+.hoursAndElevation{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    border-bottom: var(--light-accent) 1px solid;
+}
+.hoursAndElevation > p{
+    display: flex;
+}
+
+.hoursAndElevation > p::after{
+    content: '';
+    display: flex;
+    background-color: var(--light-accent);
+    box-sizing: border-box;
+    margin: 0 0.5rem;
+    width: 1px;
+    height: 25px;
+}
+.hoursAndElevation > p + p::after{
+    display: none;
+}
+
+.thisYear > p{
+    font-size: 11px;
+    margin: 1rem 0 0.3rem;
+    display: inline-flex;
+}
+.yearlyMileage{
+    display: flex;
+    justify-content: center;
+}
+.yearlyMileage > p{
+    display: flex;
+    font-size: 20px; 
+    margin-top: 5px;
+}
+.mileageProgressBar{
+    padding: 0 1rem;
+    position: relative;
+}
+.progressBar{
+    content: "";
+    width: 100%;
+    height: 10px;
+    padding: 0;
+    margin: 0;
+    background-color: var(--background);
+}
+.barFill{
+    content: "";
+    height: 10px;
+    width: 22%;
+    background-color: var(--accent-green);
+    padding: 0;
+    margin: 0;
+}
+.needle{
+    display: inline-block;
+    position: absolute;
+    content: "";
+    height: 14px;
+    width: 1px;
+    background-color: black;
+    padding: 0;
+    margin: 0;
+    top: 0;
+    left: 5rem;
+}
+.mileageProgressBar > p{
+    position: absolute;
+    font-size: 8px;
+    top: 1.2rem;
+    left: calc(5rem - 13.41px);
+    padding: 0;
+    margin: 0;
+}
+.mileageStatus{
+    margin: 2rem 0 0;
+    border-bottom: var(--light-accent) 1px solid;
+    font-size: 14px;
+}
+.manageGoals{
+    display: flex;
+    padding: 0.25rem 0.5rem;
+    justify-content: space-between;
+    padding: 1rem;
+}
+.manageGoals > *{
+    font-size: 14px;
+    margin: 0;
+}
+
