@@ -36,10 +36,12 @@ span {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 1000px;
+    width: 1216px;
     min-width: 800px;
-    max-width: 1248px;
+    max-width: 1216px;
     height: 55px;
+    margin: 0 auto;
+    padding: 0 1rem;
 }
 .navLeft{
     display: flex;

@@ -11,7 +11,7 @@
 .mainDash{
     display: flex;
     background-color: tomato;
-    width: 1000px;
+    width: 1248px;
     min-width: 800px;
     max-width: 1248px;
 }
