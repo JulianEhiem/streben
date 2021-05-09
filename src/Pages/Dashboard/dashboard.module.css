@@ -5,12 +5,11 @@
 .mainDashContainer{
     display: flex;
     justify-content: center;
-    height: 150vh;
+    height: fit-content;
     background-color: var(--main);
 }
 .mainDash{
     display: flex;
-    background-color: tomato;
     width: 1248px;
     min-width: 800px;
     max-width: 1248px;

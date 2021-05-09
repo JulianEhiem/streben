@@ -3,17 +3,31 @@
 }
 
 .mainSection{
-    background-color: rgb(49, 152, 236);
+    /* background-color: rgb(49, 152, 236); */
     height: 100%;
     width: 50%;
     max-width: 951px;
     min-width: 554px;
-    padding: 1rem;
+    padding: 0.5rem 1rem 1rem;
+}
+.feedFilter{
+    display: flex;
+    align-self: flex-start;
+}
+.filter{
+    display: flex;
+}
+.filter > p{
+    margin: 0.75rem 0.4rem;
+    font-size: 17px;
 }
 
 .activityCardContainer{
     background-color: #fff;
     padding: 1.5rem 1.5rem 0.3rem;
+    margin: 0.5rem 0 0.75rem;
+    border-radius: 3px;
+    box-shadow: var(--shadow-set)
 }
 .header{
     padding: 0;
