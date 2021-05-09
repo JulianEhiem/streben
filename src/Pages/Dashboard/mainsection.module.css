@@ -1,3 +1,7 @@
+:root{
+    --light-accent: #ebebeb;
+}
+
 .mainSection{
     background-color: rgb(49, 152, 236);
     height: 100%;
@@ -9,10 +13,133 @@
 
 .activityCardContainer{
     background-color: #fff;
-    padding: 1.5rem;
+    padding: 1.5rem 1.5rem 0.3rem;
 }
 .header{
     padding: 0;
     margin: 0;
     display: flex;
+    margin-bottom: 1rem;
+}
+.athleteIcon{
+    display: flex;
+    position: relative;
+    padding: 0 1rem 0 0;
+}
+.athleteName{
+    padding: 0.5rem 0 0 0.5rem;
+}
+.athleteBadge{
+    display: flex;
+    position: absolute;
+    top: 0;
+    right: 0.5rem;
+}
+.name{
+    display: flex;
+    margin-bottom: 0.2rem;
+}
+.name > a{
+    font-size: 14px;
+    font-weight: bold;
+}
+.timeStampContainer{
+    display: flex;
+    font-size: 11px;
+    color: #666666;
+}
+.time{
+    display: flex;  
+}
+.dot{
+    font-size: 17px;
+    line-height: 30%;
+    padding: 0 0.15rem;
+}
+.activityDetails{
+    display: flex;
+    margin-bottom: 1rem;
+}
+.activityTitle > h3{
+    font-size: 22px;
+    margin: 0 0 0.5rem 0;
+    text-align: left;
+}
+.activityMetrics{
+    display: flex;
+    flex-direction: row;
+}
+.metric{
+    display: flex;
+    flex-direction: row;
+    padding-right: 0.7rem;
+}
+.metricContainer{
+    display: flex;
+    flex-direction: column;
+    border-right: var(--light-accent) 1px solid;
+    padding-right: 1.5rem;
+}
+.metricContainerLast{
+    display: flex;
+    flex-direction: column;
+    padding-right: 1.5rem;
+}
+.title{
+    width: 100%;
+    font-size: 12px;
+    color: #494950;
+    margin: 0;
+    text-align: left;
+}
+.value{
+    display: flex;
+    margin: 0.5rem 0;
+    font-size: 20px;
+}
+.icon{
+    margin-right: 22px;
+    margin-left: 5px;
+}
+.details{
+    padding-left: 0.5rem;
+}
+.mapImage > img{
+    width: 100%;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+}
+.kudosCount{
+    display: flex;  
+    padding: 0.5rem 0;
+}
+.athleteAvatars{
+    padding:0 0.5rem 0 0;
+}
+.athleteAvatars > img{
+    border-radius: 50%;
+    border: #fff 2.5px solid;
+}
+.athleteAvatars > img + img{
+    margin-left: -0.5rem;
+}
+.kudos{
+    font-size: 11px;
+}
+.interactActions{
+    display: flex;
+    align-items: center;
+}
+.like{
+    padding: 6px 12px;
+    background-color: var(--light-accent);
+    border-radius: 5px;
+}
+.comment{
+    padding: 6px 12px;
+    background-color: var(--light-accent);
+    border-radius: 5px;
+    margin-left: 0.25rem;
 }
