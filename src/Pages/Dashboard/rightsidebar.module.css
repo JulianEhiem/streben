@@ -1,5 +1,84 @@
 .rightSection{
     background-color: rgb(185, 230, 134);
+    /* height: fit-content; */
     height: 100%;
-    width: 25%;
+    width: 24.95%;
+    max-width: 279.5px;
+    padding: 3rem 1rem 2rem;
+}
+.challengesSection{
+    display: flex;
+    background-color: red;
+    content: "";
+    width: 100%;
+    height: fit-content;
+    margin: 0.75rem 0;
+    padding: 1rem 0;
+}
+.badgeContainer{
+    display: flex;
+    width: 50px;
+    height: 50px;
+    padding: 0.5rem;
+    align-content: center;
+    justify-content: center;
+    border: 1px solid #505050;
+    border-radius: 50%;
+    box-sizing: border-box;
+}
+.challengesCta{
+    text-align: left;
+    padding-left: 1rem;
+}
+.challengesHeader{
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 9px;
+}
+.challengesBody{
+    font-size: 12px;
+    margin: 0 0 6px;
+}
+.challengesLink > a{
+    font-size: 12px;
+    font-weight: bold;
+    color: #FC5200;
+}
+
+
+
+
+
+
+
+
+
+
+.clubsSection{
+    background-color: blue;
+    content: "";
+    width: 100%;
+    height: 30px;
+    margin: 0.75rem 0;
+}
+.privacySection{
+    background-color: green;
+    content: "";
+    width: 100%;
+    height: 30px;
+    margin: 0.75rem 0;
+}
+.friendsSection{
+    background-color: lightskyblue;
+    content: "";
+    width: 100%;
+    height: 30px;
+    margin: 0.75rem 0;
+}
+.footerSection{
+    background-color: palevioletred;
+    content: "";
+    width: 100%;
+    height: 30px;
+    margin: 0.75rem 0;
 }
