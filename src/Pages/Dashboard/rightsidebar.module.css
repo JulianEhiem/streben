@@ -1,6 +1,4 @@
 .rightSection{
-    background-color: rgb(185, 230, 134);
-    /* height: fit-content; */
     height: 100%;
     width: 24.95%;
     max-width: 279.5px;
@@ -8,14 +6,13 @@
 }
 .challengesSection{
     display: flex;
-    background-color: red;
-    content: "";
     width: 100%;
     height: fit-content;
     margin: 0.75rem 0;
     padding: 1rem 0;
 }
 .badgeContainer{
+    background-color: #fff;
     display: flex;
     width: 50px;
     height: 50px;
@@ -44,29 +41,41 @@
     font-weight: bold;
     color: #FC5200;
 }
-
-
-
-
-
-
-
-
-
-
 .clubsSection{
-    background-color: blue;
-    content: "";
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem;
     width: 100%;
-    height: 30px;
+    height: fit-content;
     margin: 0.75rem 0;
 }
+.clubsSection > h3{
+    margin: 0.5rem 0 1rem;
+    font-size: 16px;
+}
+.clubsSection{
+    margin: 0;
+}
+.clubsSection > button{
+    background-color: #fff;
+    margin: 0.5rem 0;
+    border: none;
+    padding: 0.5rem 1rem;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 3px;
+}
+
+
+
+
+
 .privacySection{
-    background-color: green;
-    content: "";
+    display: flex;
     width: 100%;
-    height: 30px;
+    height: fit-content;
     margin: 0.75rem 0;
+    padding: 1rem 0;
 }
 .friendsSection{
     background-color: lightskyblue;
